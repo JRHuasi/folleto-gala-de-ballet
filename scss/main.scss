@@ -1,0 +1,33 @@
+
+	.cuadro{
+		position: relative;
+		display: block;
+		width: 100%;
+		max-width: 650px;
+		margin: auto;
+		height: 100%;
+		img {
+			width: 100%;
+		}
+		#cursores {
+			// position: relative;
+			width: 100%;
+			top: 50%;
+			color: #666;
+			position: absolute;
+			display: flex;
+			justify-content: space-between;
+			.flecha {
+				background: white;
+				padding: 7px 10px;
+				border-radius: 50%;
+				margin: 0 10px;
+				font-size: 2rem;
+				&.izquierda {
+				}
+				&.derecha {
+				}
+			}
+		}
+	}
+
